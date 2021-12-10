@@ -37,7 +37,7 @@ def baner():
 ██╔══██║██╔══██╗██║██╔══██╗
 ██║░░██║██████╦╝██║██║░░██║
 ╚═╝░░╚═╝╚═════╝░╚═╝╚═╝░░╚═╝                                
- \n {cc}     IT'S NOT JUST A NAME, IT'S A BRAND
+ \n {cc}Try somethings Different 
 {dd}──────────────────────────────────────────────────
 {gg}▸ AUTHOR     : Rayhan Ahmed Abir
 ▸ FACEBOOK   : FACEBOOK.COM/Abir.Official.Profile
