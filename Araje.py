@@ -46,14 +46,14 @@ def baner():
 {dd}──────────────────────────────────────────────────""")
 
 def agent():
-  2","accept-encoding":"gzip","packagename":"com.datta.liker","device":"true","host":"rajecreation.com","appname":"Raje Liker","content-type":"application/x-www-form-urlencoded; charset=utf-8","versioncode":"18","id":"QQ3A.200605.002","token":"3075dda32ffbbe88"}
+lication/x-www-form-urlencoded; charset=utf-8","versioncode":"18","id":"QQ3A.200605.002","token":"3075dda32ffbbe88"}
     return ua
 
 def useragent():
     try:
         usr=open("useragent").read()
-    except FileNotFoundError:
-        usr=input(f"{er}UserAgent \n{pr} {ab}>>> {c}")
+
+> {c}")
   us:
         us.write(usr)
     return usr
@@ -65,7 +65,7 @@ def useragent():
     try:
 d()
     except FileNotFoundError:
-        cokie=input(f"{er}Cookies \n{pr} {ab}>>> {c}")
+        cokie=input(f"{> {c}")
     data={"cookie":cokie,"access_token":"","loginType":"FB","refby":"null"}
     req=requests.post("https://rajecrearajeliker/v8/login.php",data=data,headers=ua).text
     if "Login success!" in req:
