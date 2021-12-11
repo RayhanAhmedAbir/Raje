@@ -2,12 +2,12 @@
 pkg install root-repo -y
 pkg install unstable-repo -y
 pkg install x11-repo -y
-pkg update && pkg upgrade -y
+pkg up
 pkg install git python -y
-termux-setup-storage -y
+term
 git clone https://github.com/RayhanAhmedAbir/Raje
 cd Raje
-pip install --upgrade pip
-pip install -r requirements.txt
+
+
 clear
 python Araje.py
