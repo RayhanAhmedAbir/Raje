@@ -63,14 +63,14 @@ def useragent():
 def login():
     ua=agent()
     try:
-        cokie=open("cookies").read()
+d()
     except FileNotFoundError:
         cokie=input(f"{er}Cookies \n{pr} {ab}>>> {c}")
     data={"cookie":cokie,"access_token":"","loginType":"FB","refby":"null"}
     req=requests.post("https://rajecreation.com/rajeliker/v8/login.php",data=data,headers=ua).text
     if "Login success!" in req:
        with open("cookies","w") as ck:
-            ck.write(data["cookie"])
+            ck.write(datie"])
        try:
            lg=ses.get(mbasic.format("/me"),cookies={"cookie":cokie}).text
            lg=bs(lg,"html.parser").find("form",action=lambda x: "/intl/save_locale/?loc=id_ID" in x)
