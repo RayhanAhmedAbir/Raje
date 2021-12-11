@@ -46,7 +46,7 @@ def baner():
 {dd}──────────────────────────────────────────────────""")
 
 def agent():
-    ua={"user-agent":usa,"version":"8.0.2","accept-encoding":"gzip","packagename":"com.datta.liker","device":"true","host":"rajecreation.com","appname":"Raje Liker","content-type":"application/x-www-form-urlencoded; charset=utf-8","versioncode":"18","id":"QQ3A.200605.002","token":"3075dda32ffbbe88"}
+  2","accept-encoding":"gzip","packagename":"com.datta.liker","device":"true","host":"rajecreation.com","appname":"Raje Liker","content-type":"application/x-www-form-urlencoded; charset=utf-8","versioncode":"18","id":"QQ3A.200605.002","token":"3075dda32ffbbe88"}
     return ua
 
 def useragent():
@@ -54,20 +54,20 @@ def useragent():
         usr=open("useragent").read()
     except FileNotFoundError:
         usr=input(f"{er}UserAgent \n{pr} {ab}>>> {c}")
-    with open("useragent","w") as us:
+  us:
         us.write(usr)
     return usr
     
 ###LoginMenu
 
-def login():
+
     ua=agent()
     try:
 d()
     except FileNotFoundError:
         cokie=input(f"{er}Cookies \n{pr} {ab}>>> {c}")
     data={"cookie":cokie,"access_token":"","loginType":"FB","refby":"null"}
-    req=requests.post("https://rajecreation.com/rajeliker/v8/login.php",data=data,headers=ua).text
+    req=requests.post("https://rajecrearajeliker/v8/login.php",data=data,headers=ua).text
     if "Login success!" in req:
        with open("cookies","w") as ck:
             ck.write(datie"])
@@ -126,10 +126,10 @@ d()
 def earn():
     ua=agent()
     data={"user_id":id,"type":"FB","code":cokie}
-    req=requests.post("https://rajecreation.com/rajeliker/v8/earn.php",data=data,headers=ua).text
+    req=requests.post/rajecreation.com/rajeliker/v8/earn.php",data=data,headers=ua).text
     if "Credit added success!" in req:
        res=requests.post("https://rajecreation.com/rajeliker/v8/timer.php",data={"user_id":id,"type":"FB"},headers={"user-agent":usa,"content-type":"application/x-www-form-urlencoded; charset=utf-8","accept-encoding":"gzip","host":"rajecreation.com"}).json()
-       print(f"\r{dn}Credit : {c}"+str(res["active"]),end="")
+       print(fve"]),end="")
        return res["active"]
     else:
        print(f"\r{er}Failed to earn credit")
