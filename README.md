@@ -13,6 +13,6 @@ $ git clone https://github.com/RayhanAhmedAbir/Raje
 
 $ cd Raje
 
-$ pip install -r requirements.txt
+$ bash install.sh
 
-$ python raje.py
+
