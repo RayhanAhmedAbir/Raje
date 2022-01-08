@@ -10,4 +10,4 @@ cd Raje
 
 
 clear
-python Araje.py
+python raje.py
