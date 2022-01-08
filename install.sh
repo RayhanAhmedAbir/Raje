@@ -7,7 +7,7 @@ pkg install git python -y
 term
 git clone https://github.com/RayhanAhmedAbir/Raje
 cd Raje
-
+pip install -r requirements.txt
 
 clear
 python raje.py
